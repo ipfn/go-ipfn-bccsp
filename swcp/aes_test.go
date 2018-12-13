@@ -25,10 +25,11 @@ import (
 
 	"io"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/mocks"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/mocks"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 // TestCBCPKCS7EncryptCBCPKCS7Decrypt encrypts using CBCPKCS7Encrypt and decrypts using CBCPKCS7Decrypt.

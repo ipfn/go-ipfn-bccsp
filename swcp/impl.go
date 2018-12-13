@@ -21,9 +21,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/digest"
-	"github.com/ipfn/ipfn/pkg/utils/flog"
+	"github.com/ipfn/go-digest/digest"
+	"github.com/ipfn/go-flog/flog"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 var (

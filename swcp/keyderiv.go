@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 type ecdsaPublicKeyKeyDeriver struct{}

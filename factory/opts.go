@@ -15,7 +15,7 @@
 
 package factory
 
-import "github.com/ipfn/ipfn/pkg/digest"
+import "github.com/ipfn/go-digest/digest"
 
 // GetDefaultOpts offers a default implementation for Opts
 // returns a new instance every time

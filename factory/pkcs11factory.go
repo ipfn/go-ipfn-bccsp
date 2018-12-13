@@ -18,10 +18,11 @@
 package factory
 
 import (
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/pkcs11"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp"
 	"github.com/pkg/errors"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/pkcs11"
+	"github.com/ipfn/go-ipfn-bccsp/swcp"
 )
 
 const (

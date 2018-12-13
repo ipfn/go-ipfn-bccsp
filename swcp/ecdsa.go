@@ -20,8 +20,8 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 func signECDSA(k *ecdsa.PrivateKey, digest []byte, opts bccsp.SignerOpts) ([]byte, error) {

@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/digest"
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 // rsaPublicKey reflects the ASN.1 structure of a PKCS#1 public key.

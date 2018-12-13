@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/ipfn/ipfn/pkg/digest"
+	"github.com/ipfn/go-digest/digest"
 )
 
 type hasher struct {

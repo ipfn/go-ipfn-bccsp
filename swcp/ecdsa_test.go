@@ -24,8 +24,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 func TestSignECDSABadParameter(t *testing.T) {

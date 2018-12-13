@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 func TestInvalidStoreKey(t *testing.T) {

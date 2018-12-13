@@ -23,10 +23,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/pkcs11"
-	"github.com/ipfn/ipfn/pkg/digest"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-digest/digest"
+	"github.com/ipfn/go-ipfn-bccsp/pkcs11"
 )
 
 func TestMain(m *testing.M) {

@@ -21,8 +21,9 @@ import (
 	"crypto/x509"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
 	"github.com/stretchr/testify/assert"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 func TestX509PublicKeyImportOptsKeyImporter(t *testing.T) {

@@ -16,13 +16,14 @@
 package pkcs11
 
 import (
+	"crypto/sha256"
 	"encoding/asn1"
 	"fmt"
 	"hash"
 
-	"github.com/ipfn/ipfn/pkg/digest"
-	"github.com/minio/sha256-simd"
 	"golang.org/x/crypto/sha3"
+
+	"github.com/ipfn/go-digest/digest"
 )
 
 type config struct {

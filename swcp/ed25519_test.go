@@ -23,7 +23,8 @@ import (
 	"gx/ipfs/QmW7VUmSvhvSGbYbdsh7uRjhGmsYkc9fL8aJ5CorxxrU5N/go-crypto/ed25519"
 
 	"github.com/agl/ed25519/edwards25519"
-	"github.com/ipfn/ipfn/pkg/crypto/entropy"
+
+	"github.com/ipfn/go-entropy/entropy"
 )
 
 func BenchmarkED25519Sign_32(b *testing.B) {

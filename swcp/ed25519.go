@@ -19,9 +19,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/digest"
 	"golang.org/x/crypto/ed25519"
+
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 type ed25519KeyGenerator struct{}

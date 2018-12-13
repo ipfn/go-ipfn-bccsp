@@ -19,9 +19,10 @@ import (
 	"crypto"
 	"io"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
 	"github.com/pkg/errors"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 // bccspCryptoSigner is the BCCSP-based implementation of a crypto.Signer

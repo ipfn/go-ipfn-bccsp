@@ -37,13 +37,14 @@ import (
 
 	"reflect"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/signer"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp/mocks"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
-	"github.com/ipfn/ipfn/pkg/digest"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/sha3"
+
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/signer"
+	"github.com/ipfn/go-ipfn-bccsp/swcp/mocks"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 var (

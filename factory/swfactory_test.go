@@ -19,8 +19,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/digest"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-digest/digest"
 )
 
 func TestSWFactoryName(t *testing.T) {

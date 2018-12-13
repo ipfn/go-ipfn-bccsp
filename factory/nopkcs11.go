@@ -18,8 +18,9 @@
 package factory
 
 import (
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
 	"github.com/pkg/errors"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 // FactoryOpts holds configuration information used to initialize factory implementations

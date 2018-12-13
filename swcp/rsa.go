@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 type rsaSigner struct{}

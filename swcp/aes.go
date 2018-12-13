@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 // GetRandomBytes returns len random looking bytes

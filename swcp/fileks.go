@@ -28,8 +28,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.

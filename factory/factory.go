@@ -18,9 +18,10 @@ package factory
 import (
 	"sync"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/utils/flog"
 	"github.com/pkg/errors"
+
+	"github.com/ipfn/go-flog/flog"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 var (

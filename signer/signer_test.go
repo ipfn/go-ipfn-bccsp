@@ -22,9 +22,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/mocks"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-ipfn-bccsp/mocks"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 func TestInitFailures(t *testing.T) {

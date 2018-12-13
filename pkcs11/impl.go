@@ -21,11 +21,12 @@ import (
 	"crypto/x509"
 	"os"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp"
-	"github.com/ipfn/ipfn/pkg/utils/flog"
 	"github.com/miekg/pkcs11"
 	"github.com/pkg/errors"
+
+	"github.com/ipfn/go-flog/flog"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/swcp"
 )
 
 var (

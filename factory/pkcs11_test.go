@@ -21,9 +21,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/pkcs11"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-digest/digest"
+	"github.com/ipfn/go-ipfn-bccsp/pkcs11"
 )
 
 func TestInitFactories(t *testing.T) {

@@ -17,13 +17,13 @@ package swcp
 
 import (
 	"crypto/elliptic"
+	"crypto/sha256"
 	"fmt"
 	"hash"
 
-	"github.com/minio/sha256-simd"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ipfn/ipfn/pkg/digest"
+	"github.com/ipfn/go-digest/digest"
 )
 
 type config struct {

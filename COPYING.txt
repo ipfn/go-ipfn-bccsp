@@ -1,0 +1,13 @@
+Format-Specification: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Name: ipfn
+Source: https://www.ipfn.io/
+Maintainer: Łukasz Kurowski <crackcomm@gmail.com>
+
+Files: *
+Copyright: 2017-2018, The IPFN Developers
+License: Apache-2.0
+
+Files: *
+Source: https://github.com/hyperledger/fabric
+Copyright: 2018, IBM Corp.
+License: Apache-2.0

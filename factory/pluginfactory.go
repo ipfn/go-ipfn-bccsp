@@ -21,7 +21,7 @@ import (
 	"os"
 	"plugin"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 const (

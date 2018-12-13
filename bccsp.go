@@ -19,7 +19,7 @@ import (
 	"crypto"
 	"hash"
 
-	"github.com/ipfn/ipfn/pkg/digest"
+	"github.com/ipfn/go-digest/digest"
 )
 
 // BCCSP is the blockchain cryptographic service provider that offers

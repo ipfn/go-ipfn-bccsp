@@ -16,10 +16,11 @@
 package factory
 
 import (
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp"
-	"github.com/ipfn/ipfn/pkg/digest"
 	"github.com/pkg/errors"
+
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/swcp"
 )
 
 const (

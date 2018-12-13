@@ -15,13 +15,14 @@
 package swcp
 
 import (
+	"crypto/sha256"
 	"errors"
 	"io"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/minio/sha256-simd"
 	"golang.org/x/crypto/ed25519"
 	"golang.org/x/crypto/hkdf"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 type ed25519PrivateKeyKeyDeriver struct{}

@@ -20,11 +20,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/mocks"
-	mocks2 "github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp/mocks"
-	"github.com/ipfn/ipfn/pkg/digest"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/mocks"
+	mocks2 "github.com/ipfn/go-ipfn-bccsp/swcp/mocks"
 )
 
 func TestKeyGenInvalidInputs(t *testing.T) {

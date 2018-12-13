@@ -18,8 +18,9 @@ package swcp
 import (
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-ipfn-bccsp/mocks"
 )
 
 func TestNewDummyKeyStore(t *testing.T) {

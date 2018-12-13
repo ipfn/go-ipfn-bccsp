@@ -23,11 +23,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	mocks2 "github.com/ipfn/ipfn/pkg/crypto/bccsp/mocks"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp/mocks"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
 	"github.com/stretchr/testify/assert"
+
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	mocks2 "github.com/ipfn/go-ipfn-bccsp/mocks"
+	"github.com/ipfn/go-ipfn-bccsp/swcp/mocks"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 func TestKeyImport(t *testing.T) {

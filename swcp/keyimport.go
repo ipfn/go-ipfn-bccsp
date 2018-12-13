@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/utils"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/utils"
 )
 
 type aes256ImportKeyOptsKeyImporter struct{}

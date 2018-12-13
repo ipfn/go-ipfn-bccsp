@@ -20,10 +20,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/swcp/mocks"
-	"github.com/ipfn/ipfn/pkg/digest"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
+	"github.com/ipfn/go-ipfn-bccsp/swcp/mocks"
 )
 
 func TestHash(t *testing.T) {

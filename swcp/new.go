@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
-	"github.com/ipfn/ipfn/pkg/digest"
+	"github.com/ipfn/go-digest/digest"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 // NewDefaultSecurityLevel returns a new instance of the software-based BCCSP

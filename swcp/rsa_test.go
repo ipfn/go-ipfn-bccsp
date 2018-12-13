@@ -25,8 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ipfn/go-ipfn-bccsp/mocks"
 )
 
 func TestRSAPrivateKey(t *testing.T) {

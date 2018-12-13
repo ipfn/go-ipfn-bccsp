@@ -18,7 +18,7 @@ package swcp
 import (
 	"errors"
 
-	"github.com/ipfn/ipfn/pkg/crypto/bccsp"
+	bccsp "github.com/ipfn/go-ipfn-bccsp"
 )
 
 // NewDummyKeyStore instantiate a dummy key store
